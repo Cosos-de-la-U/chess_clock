@@ -1,5 +1,4 @@
 import 'package:chess_timer/screens/timers/TimersList.dart';
-import 'package:chess_timer/screens/welcome/WelcomeScreen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
