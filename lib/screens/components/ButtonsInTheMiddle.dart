@@ -14,9 +14,9 @@ class ButtonsInTheMiddle extends StatelessWidget {
       child: Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          ResetButton(),
-          PauseButton(),
           GoBackButton(),
+          PauseButton(),
+          ResetButton(),
         ],
       ),
     );

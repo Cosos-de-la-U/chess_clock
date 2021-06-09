@@ -1,3 +1,4 @@
+import 'package:chess_timer/screens/timers/TimersList.dart';
 import 'package:flutter/material.dart';
 
 class GoBackButton extends StatelessWidget {
@@ -10,7 +11,7 @@ class GoBackButton extends StatelessWidget {
     return FlatButton(
       child: Icon(Icons.exit_to_app),
       textColor: Colors.white,
-      onPressed: () {},
+      onPressed: () => Navigator.pop(context, MaterialPageRoute(builder: (context) => TimersList())),
     );
   }
 }
