@@ -19,13 +19,13 @@ class _ClockTimerState extends State<ClockTimer> {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               //Creating timer for white side
-              Flexible(child: TimerBox(WhiteSideColor, WhiteSideRotation),flex: 12,),
+              Flexible(child: TimerBox(WhiteSideColor,ClockRunningColorBox, WhiteSideRotation),flex: 12,),
 
               //Creating buttons in the middle
               Flexible(child: SizedBox(child: ButtonsInTheMiddle(),), flex: 1,),
 
               //Creating timer for black side
-              Flexible(child: TimerBox(BlackSideColor, BlackSideRotation), flex: 12,),
+              Flexible(child: TimerBox(BlackSideColor,ClockRunningColorBox, BlackSideRotation), flex: 12,),
             ],
           ))
         ],
